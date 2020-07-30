@@ -1,0 +1,1 @@
+podman run --rm --pod new:webserver --name web -d -p 80:80  -v /root/basic-httpd/htdocs/:/usr/local/apache2/htdocs/ httpd
